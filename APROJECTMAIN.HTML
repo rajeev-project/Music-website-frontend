@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Aprojectmain.css">
+    <link rel="stylesheet" href="Aprojectbody.css"> 
+    <link rel="stylesheet" href="Aprojectplayer.css">
+    <link rel="stylesheet" href="Aprojectmain2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down_circle" />
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo"><img src="./images/Fellow.svg"></div>
+            <div class="search"><input type="search" placeholder="Search Music,Podcast and More.."> </div>
+            <div class="home">
+               <ul class="no-bullet">
+                <li><a href="./APROJECTMAIN.HTML">Home</a></li>
+                <li><a href="./aPROJECTPODCAST.HTML" position=relative>Playlist</a></li>
+                <li><a href="./AProjectalbum.html" >podcast</a></li>
+                <li><a href="#">about</a></li>
+                <div class="count-wrapper">
+                    <span class="count-display">0</span>
+                  </div>
+                <li> <div class="profile"><img src="./images/profile-circle.svg" onclick="ToggleMenu()"></div></li>
+               </ul>
+            </div>
+               <div class="sub-box" id="submenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                    <img src="./images/profile-circle.svg" width="40px" height="40px">
+                    </div>
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <img src="./images/settings.png">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="./images/settings.png">
+                        <p>Settings and privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="./images/question-mark.png">
+                        <p>Help & support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="./images/logout-8.png">
+                        <p>Log out</p>
+                        <span>></span>
+                    </a>
+                </div>
+               </div> 
+        </div>
+        <div class="blank">
+            
+        </div>
+        <div class="body">
+           <div class="half">
+            <div class="scroll">
+                <div class="scroll2">
+                    <img src="./images/zayn.jpg">
+                    <div class="writing">
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/weekend.jpg">
+                    <div class="writing">
+                        
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/kygo.jpg">
+                    <div class="writing">
+                        
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/dua.jpg">
+                    <div class="writing">
+                        
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/zayn.jpg">
+                    <div class="writing">
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/weekend.jpg">
+                    <div class="writing">
+                        
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/kygo.jpg">
+                    <div class="writing">
+                        
+                    </div>
+                </div>
+                <div class="scroll2">
+                    <img src="./images/dua.jpg">
+                    <div class="writing">
+                        
+                    </div>
+                </div>
+
+            </div>
+           </div>
+           <div class="title">
+            <div class="songtitle"><h2>Trending on Fellow</h2></div>
+            <div class="songbar">
+                <div class="songimg"  data-title="Memories" 
+                data-artist="Maroon5" 
+                data-img="./project img/Memories.jpg" 
+                data-audio="./music/maroon5.mp3">
+                    <img src="./project img/Memories.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <div class="heart-wrapper">
+                        <button class="heart-button">&#10084;</button>
+                      </div>     
+                    <h3>Memories</h3>
+                </div>
+                <div class="songimg" data-title="Closer" 
+                data-artist="Chainsmokers" 
+                data-img="./project img/closer.webp" 
+                data-audio="./music/closer.mp3">
+                    <img src="./project img/closer.webp">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <div class="heart-wrapper">
+                        <button class="heart-button">&#10084;</button>
+                      </div>           
+                    <h3>Closer</h3>
+                </div>
+                <div class="songimg" data-title="Somebody i used to know" 
+                data-artist="Gotye ft.kimbra" 
+                data-img="./project img/sombody.jpg" 
+                data-audio="./music/gotye.mp3">
+                    <img src="./project img/sombody.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <div class="heart-wrapper">
+                        <button class="heart-button">&#10084;</button>
+                      </div>           
+                    <h3>Somebody i used to know</h3>
+                </div>
+                <div class="songimg" data-title="Faded" 
+                data-artist="Alan walker" 
+                data-img="./project img/faded.jpg" 
+                data-audio="./music/faded.mp3">
+                    <img src="./project img/faded.jpg"> 
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <div class="heart-wrapper">
+                        <button class="heart-button">&#10084;</button>
+                    </div>
+                    <h3>Faded</h3>
+                </div>
+                <div class="songimg" data-title="Photograph" 
+                data-artist="Ed sheran" 
+                data-img="./project img/photograph.jpg" 
+                data-audio="./music/photograph.mp3">
+                    <img src="./project img/photograph.jpg"> 
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Photograph</h3>
+                </div>
+                <div class="songimg" data-title="Nights" 
+                data-artist="Avicii" 
+                data-img="./project img/nights.webp" 
+                data-audio="./music/avicii.mp3">
+                    <img src="./project img/nights.webp">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Nights</h3>
+                </div>
+            </div>
+            
+           </div>
+          
+        </div>
+        <div class="player"> 
+            <div class="playerimg">
+                <img class="player-img" src=" ">
+                <div class="playwrite">
+                    <h3 class="player-title" ></h3>
+                    <h4 class="player-artist"></h4>
+                </div>
+            </div>
+            <div class="playerbar" id="payerid">
+                <audio class="audio-player" controls>
+                    <source src=" " type="audio/mp3">
+                </audio>
+
+            </div>
+
+        </div>
+        <div class="main2">
+            <div class="category"><h2>Popular category</h2></div>
+            <div class="artistblock">
+            <div class="artistbox">
+                <div class="artist"><p>Inspiring</p></div>
+                <div class="artist"><p>Cinematic</p></div>
+        </div>
+        <div class="artistbox">
+            <div class="artist"><p>Love</p></div>
+            <div class="artist"><p>Happy</p></div>
+        </div>  
+        <div class="artistbox">
+             <div class="artist"><p>Fun</div>
+             <div class="artist"><p>Upbeat</p></div>
+             </div>
+             <div class="artistbox">
+                  <div class="artist"><p>Hip-Hop</p></div>
+                  <div class="artist"><p>Rock</p></div>
+                  </div>
+                  <div class="artistbox">
+                       <div class="artist"><p>Pop</p></div>
+                       <div class="artist"><p>Electronic</p></div>
+                       </div>
+                       <div class="artistbox">
+                       <div class="artist"><p>Chill</p></div>
+                       <div class="artist"><p>Calm</p></div>
+                       </div>
+            </div>
+        </div>
+        <div class="title">
+            <div class="songtitle"><h2>Best of Hindi</h2></div>
+            <div class="songbar">
+                <div class="songimg"  data-title="tum se hi" 
+                data-artist="Arijit Singh" 
+                data-img="./project img/jab we.jpg" 
+                data-audio="./music/tum se hi.mp3">
+                    <img src="./project img/jab we.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>tum se hi</h3>
+                </div>
+                <div class="songimg" data-title="tum hi ho" 
+                data-artist="Arijit Singh" 
+                data-img="./project img/tum hi.webp" 
+                data-audio="./music/tum hi ho.mp3">
+                    <img src="./project img/tum hi.webp">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>tum hi ho</h3>
+                </div>
+                <div class="songimg" data-title="Sunn Raha Hai Na Tu" 
+                data-artist="Arijit Singh" 
+                data-img="./project img/sun.jpg" 
+                data-audio="./music/Sunn Raha Hai Na Tu.mp3">
+                    <img src="./project img/sun.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Sunn Raha Hai Na Tu</h3>
+                </div>
+                <div class="songimg" data-title="Tu Hi Meri Shab Hai" 
+                data-artist="Arijit Singh" 
+                data-img="./project img/shab hai.jpg" 
+                data-audio="./music/Tu Hi Meri Shab Hain.mp3">
+                    <img src="./project img/shab hai.jpg"> 
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Tu Hi Meri Shab Hai</h3>
+                </div>
+                <div class="songimg" data-title="Teri dewani" 
+                data-artist="Arijit Singh" 
+                data-img="../project img/dewani.jpg" 
+                data-audio="./music/teri dewani.mp3">
+                    <img src="./project img/dewani.jpg"> 
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Teri dewani</h3>
+                </div>
+                <div class="songimg" data-title="Laboon ko" 
+                data-artist="Arijit Singh" 
+                data-img="./project img/laboon.jpg" 
+                data-audio="./music/laboon ko.mp3">
+                    <img src="./project img/laboon.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Laboon ko</h3>
+                </div>
+            </div>
+            
+           </div>
+           <div class="title">
+            <div class="songtitle"><h2>Malayalam</h2></div>
+            <div class="songbar">
+                <div class="songimg"  data-title="jupitermazha" 
+                data-artist="Darwin" 
+                data-img="./project img/jupitermazha.jpg" 
+                data-audio="./music/jupiter Mazha .mp3">
+                    <img src="./project img/jupitermazha.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Jupiter Mazha</h3>
+                </div>
+                <div class="songimg" data-title="malara" 
+                data-artist="Vijay Eshudas" 
+                data-img="./project img/malar.jpg" 
+                data-audio="./music/malare.mp3">
+                    <img src="./project img/malar.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Malare</h3>
+                </div>
+                <div class="songimg" data-title="Sneham cherum neram" 
+                data-artist="Rinu razak" 
+                data-img="./project img/ohmshanthi.webp" 
+                data-audio="./Music/snehamcherum.mp3">
+                    <img src="./project img/ohmshanthi.webp">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Sneham cherum neram</h3>
+                </div>
+                <div class="songimg" data-title="Anuragathin velayil" 
+                data-artist="Vineeth Srenivasan" 
+                data-img="./project img/thatam.jpg" 
+                data-audio="./music/anuragham.mp3">
+                    <img src="./project img/thatam.jpg"> 
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Anuragathin velayil</h3>
+                </div>
+                <div class="songimg" data-title="Mounam chorum neram" 
+                data-artist="Rinu razak" 
+                data-img="./project img/ohmshanthi.webp" 
+                data-audio="./music/Black and White (ALT) - 1.mp3">
+                    <img src="./project img/ohmshanthi.webp"> 
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>Mounam chorum neram</h3>
+                </div>
+                <div class="songimg" data-title="kamini" 
+                data-artist="K.S Harishankar" 
+                data-img="./project img/kamini.jpg" 
+                data-audio="./music/Black and White (ALT) - 1.mp3">
+                    <img src="./project img/kamini.jpg">
+                    <button class="button"><img class="img" src="./project img/play-141.svg"></button>
+                    <h3>kamini</h3>
+                </div>
+            </div>
+            
+           </div>
+           <div class="mediaheader">
+            <div class="join">
+                <div class="medialogo">
+                    <img src="./images/Fellow.svg"> 
+                </div>
+                <div class="mediahome">
+                    <button class="medbutton" onclick="toggleDropdown()">
+                        <h3>Menu</h3>
+                        <span class="material-symbols-outlined">
+                        arrow_drop_down_circle
+                        </span>
+                    </button>
+                    <div class="dropdown" id="dropdownMenu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Playlist</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+           
+           
+            
+           
+
+    </div>
+</body>
+<script>
+    let submenu = document.getElementById("submenu");
+function ToggleMenu() {
+    submenu.classList.toggle("open-menu");
+}
+
+const playPauseButtons = document.querySelectorAll('.button');
+const player = document.querySelector('.player');
+const audioPlayer = player.querySelector('.audio-player');
+const playerImg = player.querySelector('.player-img');
+const playerTitle = player.querySelector('.player-title');
+const playerArtist = player.querySelector('.player-artist');
+
+// Set image paths for play and pause icons
+const playIcon = "./project img/play-141.svg";
+const pauseIcon = "./project img/pause-71.svg";
+
+// Track the currently playing song element
+let currentlyPlayingButton = null;
+
+playPauseButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        const songElement = button.closest('.songimg'); // Get the parent songimg div
+
+        // Get song details from data attributes
+        const title = songElement.getAttribute('data-title');
+        const artist = songElement.getAttribute('data-artist');
+        const imgSrc = songElement.getAttribute('data-img');
+        const audioSrc = songElement.getAttribute('data-audio');
+
+        // Check if the clicked button is the same as the currently playing one
+        if (currentlyPlayingButton === button) {
+            if (!audioPlayer.paused) {
+                audioPlayer.pause(); // Pause if currently playing
+                button.querySelector('.img').src = playIcon; // Change to play icon
+                
+            } else {
+                audioPlayer.play(); // Resume playback if paused
+                button.querySelector('.img').src = pauseIcon; // Change to pause icon
+            
+            }
+        } else {
+            // If a new song is selected, stop the previous song and reset its icon
+            if (currentlyPlayingButton) {
+                currentlyPlayingButton.querySelector('.img').src = playIcon;
+            }
+
+            // Update player details with the new song's information
+            playerImg.src = imgSrc;
+            playerTitle.textContent = title;
+            playerArtist.textContent = artist;
+            audioPlayer.src = audioSrc;
+            audioPlayer.play(); // Start playing the new audio
+            player.style.display = 'flex'; // Show the player
+            button.querySelector('.img').src = pauseIcon; // Change to pause icon
+
+            // Update the reference to the current button
+            currentlyPlayingButton = button;
+        }
+    });
+});
+function toggleDropdown() {
+    const dropdown = document.getElementById('dropdownMenu');
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
+// Optional: Close dropdown when clicking outside
+document.addEventListener('click', function (event) {
+    const dropdown = document.getElementById('dropdownMenu');
+    const button = document.querySelector('.medbutton');
+
+    if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.style.display = 'none';
+    }
+});
+const heartButtons = document.querySelectorAll('.heart-button'); // Select all heart buttons
+const countDisplay = document.querySelector('.count-display'); // Single counter in header
+
+let count = 0;
+
+heartButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    button.classList.toggle('active'); // Toggle the active state
+    if (button.classList.contains('active')) {
+      count++;
+    } else {
+      count--;
+    }
+    countDisplay.textContent = count; // Update the counter in the header
+  });
+});
+
+
+
+
+
+
+</script>
+</html>
